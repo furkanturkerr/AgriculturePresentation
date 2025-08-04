@@ -1,8 +1,8 @@
 namespace Entity.Concrate;
 
-public class News
+public class Announcements
 {
-    public int NewsId { get; set; }
+    public int AnnouncementsId { get; set; }
     public string Title { get; set; }
     public string Description { get; set; }
     public DateTime Date { get; set; }
