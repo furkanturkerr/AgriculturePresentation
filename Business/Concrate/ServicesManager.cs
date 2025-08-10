@@ -20,17 +20,17 @@ public class ServicesManager : IServiceService
 
     public void Update(Service t)
     {
-        throw new NotImplementedException();
+        _servicedal.Update(t);      
     }
 
     public void Delete(Service t)
     {
-        throw new NotImplementedException();
+        _servicedal.Delete(t);  
     }
 
     public Service GetById(int id)
     {
-        throw new NotImplementedException();
+       return _servicedal.GetById(id);       
     }
 
     public List<Service> GetAll()
