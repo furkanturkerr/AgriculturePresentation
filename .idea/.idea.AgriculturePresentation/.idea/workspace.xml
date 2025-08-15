@@ -9,20 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5cb86c00-3a1f-41fc-8c87-c88cff827efe" name="Changes" comment="AA">
-      <change beforePath="$PROJECT_DIR$/Business/obj/Business.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Business/obj/Business.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Business/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Business/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Business/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Business/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Business/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Business/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataAccess/obj/DataAccess.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/obj/DataAccess.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataAccess/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataAccess/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataAccess/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Entity/obj/Entity.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Entity/obj/Entity.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Entity/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Entity/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Entity/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Entity/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Entity/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Entity/obj/rider.project.restore.info" afterDir="false" />
-    </list>
+    <list default="true" id="5cb86c00-3a1f-41fc-8c87-c88cff827efe" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -163,6 +150,7 @@
       <workItem from="1755297263296" duration="249000" />
       <workItem from="1755297529633" duration="63000" />
       <workItem from="1755297637919" duration="87000" />
+      <workItem from="1755297737382" duration="217000" />
     </task>
     <task id="LOCAL-00001" summary="Proje">
       <option name="closed" value="true" />
@@ -268,7 +256,15 @@
       <option name="project" value="LOCAL" />
       <updated>1755297657087</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="AA">
+      <option name="closed" value="true" />
+      <created>1755297909364</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1755297909364</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -277,24 +273,8 @@
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="Vcs.Log.Tabs.Properties">
-    <option name="OPEN_GENERIC_TABS">
-      <map>
-        <entry key="2f4c630c-19e7-4961-a5da-94a658482cc6" value="TOOL_WINDOW" />
-      </map>
-    </option>
     <option name="TAB_STATES">
       <map>
-        <entry key="2f4c630c-19e7-4961-a5da-94a658482cc6">
-          <value>
-            <State>
-              <option name="CUSTOM_BOOLEAN_PROPERTIES">
-                <map>
-                  <entry key="Show.Git.Branches" value="true" />
-                </map>
-              </option>
-            </State>
-          </value>
-        </entry>
         <entry key="MAIN">
           <value>
             <State>
