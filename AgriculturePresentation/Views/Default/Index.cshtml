@@ -1,0 +1,25 @@
+@using Entity.Concrate
+@model List<Service>
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<h1>Hizmetler</h1>
+
+<table class="table table-bordered">
+    <tr>
+        <th>#</th>
+        <th>Başlık</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.ServiceId</td>
+            <td>@item.Title</td>
+        </tr>
+    }
+</table>
+

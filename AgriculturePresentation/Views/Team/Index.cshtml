@@ -1,0 +1,45 @@
+@model System.Collections.Generic.List<Entity.Concrate.Team>
+
+@{
+    Layout = "AdminLayout";
+}
+
+            <div class="col-lg-12 grid-margin stretch-card">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title">Ekibimiz</h4>
+                  <div class="table-responsive">
+                    <table class="table table-striped">
+                      <thead>
+                      <tr>
+                        <th>#</th>
+                        <th>ID</th> 
+                        <th>Ad</th>
+                        <th>Görev</th>
+                        <th>Sil</th>
+                        <th>Düzenle</th>
+                      </tr>
+                      </thead>
+                      <tbody>
+                      @foreach (var item in Model)
+                      {
+                        <tr>
+                          <td class="py-1">
+                            <img src="~/MajesticAdmin-Free-Bootstrap-Admin-Template-master/template/vimages/faces/face1.jpg" alt="image"/>
+                          </td>
+                          <td>@item.TeamId</td>
+                          <td>@item.PersonName</td>
+                          <td>@item.Title</td>
+                          <td><a href="Team/DeleteService/@item.TeamId" class="btn btn-outline-danger">Sil</a></td>
+                          <td><a href="Team/UpdateService/"@item.TeamId class="btn btn-outline-success">Düzenle</a></td>
+                        </tr>
+                      }
+                      </tbody>
+                    </table>
+                    @ViewBag.Message
+                    <br/>
+                    <a href="Team/AddTeam/" class="btn btn-outline-primary">Ekle</a>
+                  </div>
+                </div>
+              </div>
+            </div>
