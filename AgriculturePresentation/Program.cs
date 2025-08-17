@@ -13,7 +13,8 @@ builder.Services.AddScoped<IServiceService, ServicesManager>();
 builder.Services.AddScoped<IServiceDal, EfServiceDal>();
 
 builder.Services.AddScoped<ITeamService, TeamManager>();
-builder.Services.AddScoped<ITeamDal, EfTeamDal>();
+
+builder.Services.AddScoped<ITeamDal, EfTeamDal>(); 
 
 builder.Services.AddDbContext<AgricultureContext>();
 
