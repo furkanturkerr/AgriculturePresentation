@@ -2666,11 +2666,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Furkan\\Proje ve Dersler\\AgriculturePresentation\\Entity\\Entity.csproj",
+      "projectUniqueName": "C:\\Users\\Furkan\\Proje ve Dersler\\Tarım-Sitesi\\Entity\\Entity.csproj",
       "projectName": "Entity",
-      "projectPath": "C:\\Users\\Furkan\\Proje ve Dersler\\AgriculturePresentation\\Entity\\Entity.csproj",
+      "projectPath": "C:\\Users\\Furkan\\Proje ve Dersler\\Tarım-Sitesi\\Entity\\Entity.csproj",
       "packagesPath": "C:\\Users\\Furkan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Furkan\\Proje ve Dersler\\AgriculturePresentation\\Entity\\obj\\",
+      "outputPath": "C:\\Users\\Furkan\\Proje ve Dersler\\Tarım-Sitesi\\Entity\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Furkan\\AppData\\Roaming\\NuGet\\NuGet.Config"

@@ -14,14 +14,17 @@
             <form method="post" class="forms-sample">
                 <div class="form-group">
                     <label for="exampleInputName1">Adı Soyadı</label>
-                    <input type="text" class="form-control" id="exampleInputName1" placeholder="İsim Soyisim" asp-for="PersonName">
+                    <span asp-validation-for="PersonName" class="text-danger"></span>
+                    <input type="text" class="form-control" placeholder="İsim Soyisim" asp-for="PersonName">
                 </div>
                 <div class="form-group">
                     <label for="exampleInputEmail3">Görev</label>
+                    <span asp-validation-for="Title" class="text-danger"></span>
                     <input type="text" class="form-control" id="exampleInputEmail3" placeholder="Görev" asp-for="Title">
                 </div>
                 <div class="form-group">
                     <label for="exampleInputEmail3">Görsel</label>
+                    <span asp-validation-for="Image" class="text-danger"></span>
                     <input type="text" class="form-control" id="exampleInputEmail3" placeholder="Görev" asp-for="Image">
                 </div>
                 <div class="form-group">
