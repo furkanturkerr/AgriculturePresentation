@@ -53,5 +53,41 @@ public class TeamController : Controller
         }
         return View();
     }
+    
+    public IActionResult DeleteTeam(int id)
+    {
+        var values = _teamService.GetById(id);
+        _teamService.Delete(values);
+        return RedirectToAction("Index");
+    }
+    
+    [HttpGet]
+    public IActionResult UpdateTeam(int id)
+    {
+        var values = _teamService.GetById(id);
+        return View(values);   
+    }
+    
+    [HttpPost]
+    public IActionResult UpdateTeam(Team team)
+    {
+        TeamValidator validationRules = new TeamValidator();
+        ValidationResult result = validationRules.Validate(team);
+        if (result.IsValid)
+        {
+            _teamService.Update(team);
+            return RedirectToAction("Index");   
+        }
+        else
+        {
+            foreach (var item in result.Errors)
+            {
+                ModelState.AddModelError(item.PropertyName, item.ErrorMessage);
+            }
+        }
+        return View();
+    }
+    
+    
 
 }

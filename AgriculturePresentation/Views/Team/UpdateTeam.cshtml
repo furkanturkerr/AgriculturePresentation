@@ -1,0 +1,55 @@
+@model Entity.Concrate.Team
+
+@{
+    ViewBag.Title = "title";
+    Layout = "AdminLayout";
+}
+
+<h2>Yeni Hizmet Girişi</h2>
+
+<div class="col-12 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">Ekip Güncelleme</h4>
+            <form method="post" class="forms-sample">
+                @Html.HiddenFor(x => x.TeamId)
+                <div class="form-group">
+                    <label for="exampleInputName1">Adı Soyadı</label>
+                    <span asp-validation-for="PersonName" class="text-danger"></span>
+                    <input type="text" class="form-control" placeholder="İsim Soyisim" asp-for="PersonName">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputEmail3">Görev</label>
+                    <span asp-validation-for="Title" class="text-danger"></span>
+                    <input type="text" class="form-control" id="exampleInputEmail3" placeholder="Görev" asp-for="Title">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputEmail3">Görsel</label>
+                    <span asp-validation-for="Image" class="text-danger"></span>
+                    <input type="text" class="form-control" id="exampleInputEmail3" placeholder="Görev" asp-for="Image">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputEmail3">Facebook Linki</label>
+                    <input type="text" class="form-control" id="exampleInputEmail3" placeholder="Facebook" asp-for="FacebookUrl">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputEmail3">Twiter Linki</label>
+                    <input type="text" class="form-control" id="exampleInputEmail3" placeholder="Görev" asp-for="TwitterUrl">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputEmail3">İnstegram Linki</label>
+                    <input type="text" class="form-control" id="exampleInputEmail3" placeholder="Görev" asp-for="İnstegramUrl">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputEmail3">Web Sitesi Linki</label>
+                    <input type="text" class="form-control" id="exampleInputEmail3" placeholder="Görev" asp-for="WebsiteUrl">
+                </div>
+                <div class="form-group">
+                    <label for="exampleTextarea1">Açıklama</label>
+                    <textarea class="form-control" id="exampleTextarea1" rows="4"></textarea>
+                </div>
+                <button type="submit" class="btn btn-outline-primary">Güncelle</button>
+            </form>
+        </div>
+    </div>
+</div>

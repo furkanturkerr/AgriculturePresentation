@@ -25,13 +25,13 @@
                       {
                         <tr>
                           <td class="py-1">
-                            <img src="~/MajesticAdmin-Free-Bootstrap-Admin-Template-master/template/vimages/faces/face1.jpg" alt="image"/>
+                            <img src="/MajesticAdmin-Free-Bootstrap-Admin-Template-master/template/vimages/faces/face1.jpg" alt="image"/>
                           </td>
                           <td>@item.TeamId</td>
                           <td>@item.PersonName</td>
                           <td>@item.Title</td>
-                          <td><a href="Team/DeleteService/@item.TeamId" class="btn btn-outline-danger">Sil</a></td>
-                          <td><a href="Team/UpdateService/"@item.TeamId class="btn btn-outline-success">Düzenle</a></td>
+                          <td><a href="Team/DeleteTeam/@item.TeamId" class="btn btn-outline-danger">Sil</a></td>
+                          <td><a href="Team/UpdateTeam/@item.TeamId" class="btn btn-outline-success">Düzenle</a></td>
                         </tr>
                       }
                       </tbody>
