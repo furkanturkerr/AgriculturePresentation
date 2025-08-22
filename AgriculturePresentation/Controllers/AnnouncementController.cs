@@ -23,8 +23,10 @@ public class AnnouncementController : Controller
     [HttpPost]
     public IActionResult AddAnnouncement(Announcements p)
     {
+        p.Date = DateTime.Parse(DateTime.Now.ToShortDateString());
+        p.Status = true;
         _announcementsService.Insert(p);
-        return RedirectToAction("Index");   
+        return RedirectToAction("Index");
     }
     
     public IActionResult DeleteAnnouncement(int id)
