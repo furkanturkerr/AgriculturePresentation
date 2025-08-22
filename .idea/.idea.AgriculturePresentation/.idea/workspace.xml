@@ -10,10 +10,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5cb86c00-3a1f-41fc-8c87-c88cff827efe" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/AgriculturePresentation/Views/Team/UpdateTeam.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AgriculturePresentation/Controllers/AnnouncementController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AgriculturePresentation/Controllers/ImageController1.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AgriculturePresentation/Pages/ImageController1/Index.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AgriculturePresentation/Views/Announcement/Index.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AgriculturePresentation/Views/Announcement/UpdateAnnouncement.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Business/Concrate/AnnouncementsManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Business/Concrate/ImageManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AgriculturePresentation/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AgriculturePresentation/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AgriculturePresentation/Controllers/TeamController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AgriculturePresentation/Controllers/TeamController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AgriculturePresentation/Views/Team/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/AgriculturePresentation/Views/Team/Index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AgriculturePresentation/AgriculturePresentation.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/AgriculturePresentation/AgriculturePresentation.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AgriculturePresentation/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AgriculturePresentation/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Business/bin/Debug/net8.0/Business.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Business/bin/Debug/net8.0/Business.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Business/bin/Debug/net8.0/Business.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Business/bin/Debug/net8.0/Business.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Business/bin/Debug/net8.0/DataAccess.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Business/bin/Debug/net8.0/DataAccess.dll" afterDir="false" />
@@ -23,12 +29,12 @@
       <change beforePath="$PROJECT_DIR$/Business/obj/Debug/net8.0/Business.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Business/obj/Debug/net8.0/Business.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Business/obj/Debug/net8.0/Business.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Business/obj/Debug/net8.0/Business.AssemblyInfoInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Business/obj/Debug/net8.0/Business.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Business/obj/Debug/net8.0/Business.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Business/obj/Debug/net8.0/Business.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Business/obj/Debug/net8.0/Business.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Business/obj/Debug/net8.0/Business.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Business/obj/Debug/net8.0/Business.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Business/obj/Debug/net8.0/Business.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Business/obj/Debug/net8.0/Business.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Business/obj/Debug/net8.0/Business.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/Business/obj/Debug/net8.0/Business.sourcelink.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Business/obj/Debug/net8.0/ref/Business.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Business/obj/Debug/net8.0/ref/Business.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Business/obj/Debug/net8.0/refint/Business.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Business/obj/Debug/net8.0/refint/Business.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Business/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/Business/obj/rider.project.model.nuget.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DataAccess/bin/Debug/net8.0/DataAccess.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/bin/Debug/net8.0/DataAccess.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DataAccess/bin/Debug/net8.0/DataAccess.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/bin/Debug/net8.0/DataAccess.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DataAccess/bin/Debug/net8.0/Entity.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/bin/Debug/net8.0/Entity.dll" afterDir="false" />
@@ -41,7 +47,6 @@
       <change beforePath="$PROJECT_DIR$/DataAccess/obj/Debug/net8.0/DataAccess.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/obj/Debug/net8.0/DataAccess.sourcelink.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DataAccess/obj/Debug/net8.0/ref/DataAccess.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/obj/Debug/net8.0/ref/DataAccess.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DataAccess/obj/Debug/net8.0/refint/DataAccess.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/obj/Debug/net8.0/refint/DataAccess.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataAccess/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/obj/rider.project.model.nuget.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Entity/bin/Debug/net8.0/Entity.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Entity/bin/Debug/net8.0/Entity.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Entity/bin/Debug/net8.0/Entity.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Entity/bin/Debug/net8.0/Entity.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Entity/obj/Debug/net8.0/Entity.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Entity/obj/Debug/net8.0/Entity.AssemblyInfo.cs" afterDir="false" />
@@ -51,7 +56,6 @@
       <change beforePath="$PROJECT_DIR$/Entity/obj/Debug/net8.0/Entity.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/Entity/obj/Debug/net8.0/Entity.sourcelink.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Entity/obj/Debug/net8.0/ref/Entity.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Entity/obj/Debug/net8.0/ref/Entity.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Entity/obj/Debug/net8.0/refint/Entity.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Entity/obj/Debug/net8.0/refint/Entity.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Entity/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/Entity/obj/rider.project.model.nuget.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,9 +95,9 @@
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///AIAssistantSnippet.." root0="FORCE_HIGHLIGHTING" root1="SKIP_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///AIAssistantSnippet.." root0="FORCE_HIGHLIGHTING" root1="SKIP_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/AgriculturePresentation/obj/Debug/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Furkan/Proje ve Dersler/AgriculturePresentation/Business/obj/Debug/net8.0/Business.AssemblyInfo.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Furkan/Proje ve Dersler/AgriculturePresentation/Business/obj/Debug/net8.0/Business.AssemblyInfo.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProblemsViewState">
@@ -236,7 +240,8 @@
       <workItem from="1755412578613" duration="1348000" />
       <workItem from="1755413994926" duration="272000" />
       <workItem from="1755549260599" duration="1309000" />
-      <workItem from="1755719609458" duration="658000" />
+      <workItem from="1755719609458" duration="2704000" />
+      <workItem from="1755892695523" duration="3906000" />
     </task>
     <task id="LOCAL-00001" summary="Proje">
       <option name="closed" value="true" />
@@ -350,7 +355,15 @@
       <option name="project" value="LOCAL" />
       <updated>1755550528152</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Team Düzenleme ve silme işlemleri yapıldı">
+      <option name="closed" value="true" />
+      <created>1755720494965</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1755720494965</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -396,7 +409,8 @@
     <MESSAGE value="Düzenleme" />
     <MESSAGE value="Deneme" />
     <MESSAGE value="Fluent Validation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fluent Validation" />
+    <MESSAGE value="Team Düzenleme ve silme işlemleri yapıldı" />
+    <option name="LAST_COMMIT_MESSAGE" value="Team Düzenleme ve silme işlemleri yapıldı" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

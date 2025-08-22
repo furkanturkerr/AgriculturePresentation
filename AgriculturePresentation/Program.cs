@@ -11,12 +11,14 @@ builder.Services.AddControllersWithViews();
 
 builder.Services.AddScoped<IServiceService, ServicesManager>();
 builder.Services.AddScoped<IServiceDal, EfServiceDal>();
-
+builder.Services.AddScoped<IAnnouncementsService, AnnouncementsManager>();
+builder.Services.AddScoped<IAnnouncementsDal, EfAnnouncementDal>();
 builder.Services.AddScoped<ITeamService, TeamManager>();
 
 builder.Services.AddScoped<ITeamDal, EfTeamDal>(); 
 
 builder.Services.AddDbContext<AgricultureContext>();
+
 
 var app = builder.Build();
 
@@ -37,6 +39,6 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Team}/{action=Index}/{id?}");
+    pattern: "{controller=Announcement}/{action=Index}/{id?}");
 
 app.Run();

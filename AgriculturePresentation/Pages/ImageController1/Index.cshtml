@@ -1,0 +1,20 @@
+@model System.Collections.Generic.List<Entity.Concrate.Image>
+
+
+@{
+    Layout = "AdminLayout";
+}
+
+<table>
+    <tr>
+        <th>#</th>
+        <th>Title</th>
+    </tr>
+    <tr>
+        @foreach (var item in Model)
+        {
+            <td>@item.ImageId</td>
+            <td>@item.Title</td>
+        }
+    </tr>
+</table>

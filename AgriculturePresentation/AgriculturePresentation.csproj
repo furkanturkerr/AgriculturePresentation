@@ -26,8 +26,4 @@
       <Content Include="wwwroot\MajesticAdmin-Free-Bootstrap-Admin-Template-master\.DS_Store" />
     </ItemGroup>
 
-    <ItemGroup>
-      <Folder Include="Pages\" />
-    </ItemGroup>
-
 </Project>
