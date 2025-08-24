@@ -19,6 +19,12 @@ public class AnnouncementController : Controller
         var values = _announcementsService.GetAll();
         return View(values);
     }
+    
+    [HttpGet]
+    public IActionResult AddAnnouncement()
+    {
+        return View();
+    }
 
     [HttpPost]
     public IActionResult AddAnnouncement(Announcements p)
