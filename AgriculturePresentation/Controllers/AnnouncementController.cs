@@ -55,4 +55,16 @@ public class AnnouncementController : Controller
         _announcementsService.Update(p);
         return RedirectToAction("Index");  
     }
+    
+    public IActionResult ChangeStatusTrue(int id)
+    {
+        _announcementsService.AnnouncementsStatusToTrue(id);
+        return RedirectToAction("Index");
+    }
+    
+    public IActionResult ChangeStatusFalse(int id)
+    {
+        _announcementsService.AnnouncementsStatusToFalse(id);
+        return RedirectToAction("Index");
+    }
 }

@@ -37,4 +37,14 @@ public class AnnouncementsManager : IAnnouncementsService
     {
        return _announcementsDal.GetAll();       
     }
+
+    public void AnnouncementsStatusToTrue(int id)
+    {
+        _announcementsDal.AnnouncementsStatusToTrue(id);
+    }
+
+    public void AnnouncementsStatusToFalse(int id)
+    {
+        _announcementsDal.AnnouncementsStatusToFalse(id);       
+    }
 }
