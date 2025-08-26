@@ -15,4 +15,5 @@ public class AgricultureContext : DbContext
     public DbSet<Adress> Adresses { get; set; }
     public DbSet<Team> Teams { get; set; }
     public DbSet<Service> Service { get; set; }
+    public DbSet<Image> Images { get; set; }
 }

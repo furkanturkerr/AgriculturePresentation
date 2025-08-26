@@ -18,8 +18,7 @@
                         <th>Tarih</th>
                         <th>Sil</th>
                         <th>Düzenle</th>
-                        <th>Aktif Yap</th>
-                        <th>Pasif Yap</th>
+                        <th>Durum</th>
                     </tr>
                     </thead>
                     <tbody>
@@ -31,8 +30,14 @@
                             <td>@item.Date</td>
                             <td><a href="/Announcement/DeleteAnnouncement/@item.AnnouncementsId" class="btn btn-outline-danger">Sil</a></td>
                             <td><a href="/Announcement/UpdateAnnouncement/@item.AnnouncementsId" class="btn btn-outline-success">Düzenle</a></td>
-                            <td><a href="Announcement/ChangeStatusTrue/@item.AnnouncementsId" class="btn btn-outline-secondary">Aktif</a></td>
-                            <td><a href="Announcement/ChangeStatusFalse/@item.AnnouncementsId" class="btn btn-outline-dribbble">Pasif</a></td>
+                            @if (@item.Status == true)
+                            {
+                                <td><a href="Announcement/ChangeStatusFalse/@item.AnnouncementsId" class="btn btn-outline-secondary">Pasif Yap</a></td>
+                            }
+                            @if (@item.Status == false)
+                            {
+                                <td><a href="Announcement/ChangeStatusTrue/@item.AnnouncementsId" class="btn btn-outline-secondary">Aktif Yap</a></td>
+                            }
                         </tr>
                     }
                     </tbody>
