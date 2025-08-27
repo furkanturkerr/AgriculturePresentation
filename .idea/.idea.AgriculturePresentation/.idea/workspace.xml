@@ -10,11 +10,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5cb86c00-3a1f-41fc-8c87-c88cff827efe" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/AgriculturePresentation/Controllers/ContactController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AgriculturePresentation/Views/Contact/Index.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AgriculturePresentation/Views/Contact/MessageDetailes.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Business/Concrate/ContactManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AgriculturePresentation/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AgriculturePresentation/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AgriculturePresentation/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AgriculturePresentation/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AgriculturePresentation/Views/Address/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/AgriculturePresentation/Views/Address/Index.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AgriculturePresentation/Views/Address/UpdateAddress.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/AgriculturePresentation/Views/Address/UpdateAddress.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Business/Concrate/AddressManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Business/Concrate/AddressManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Business/bin/Debug/net8.0/Business.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Business/bin/Debug/net8.0/Business.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Business/bin/Debug/net8.0/Business.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Business/bin/Debug/net8.0/Business.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Business/obj/Debug/net8.0/Business.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Business/obj/Debug/net8.0/Business.AssemblyInfo.cs" afterDir="false" />
@@ -213,7 +214,7 @@
       <workItem from="1755892695523" duration="5356000" />
       <workItem from="1756033545236" duration="2840000" />
       <workItem from="1756245229475" duration="3585000" />
-      <workItem from="1756320771237" duration="4552000" />
+      <workItem from="1756320771237" duration="5775000" />
     </task>
     <task id="LOCAL-00001" summary="Proje">
       <option name="closed" value="true" />
@@ -391,7 +392,15 @@
       <option name="project" value="LOCAL" />
       <updated>1756326351386</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Adres İşlemlerinin Tamamlanması">
+      <option name="closed" value="true" />
+      <created>1756329367072</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1756329367072</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -445,7 +454,9 @@
     <MESSAGE value="Images Düzenlemeleri - Ekleme Silme Güncelleme - Validation" />
     <MESSAGE value="Image Veri Setleri" />
     <MESSAGE value="Adres İşlemleri" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adres İşlemleri" />
+    <MESSAGE value="114. Adres İşlemlerinin Tamamlanması" />
+    <MESSAGE value="Adres İşlemlerinin Tamamlanması" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adres İşlemlerinin Tamamlanması" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

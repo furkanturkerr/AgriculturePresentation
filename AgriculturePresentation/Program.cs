@@ -19,6 +19,8 @@ builder.Services.AddScoped<IAddressService, AddressManager>();
 builder.Services.AddScoped<IAdressDal, EfAdressDal>();
 builder.Services.AddScoped<ITeamService, TeamManager>();
 builder.Services.AddScoped<ITeamDal, EfTeamDal>(); 
+builder.Services.AddScoped<IContactService, ContactManager>();
+builder.Services.AddScoped<IContactDal, EfContactDal>();
 
 builder.Services.AddDbContext<AgricultureContext>();
 
@@ -42,6 +44,6 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Address}/{action=Index}/{id?}");
+    pattern: "{controller=Contact}/{action=Index}/{id?}");
 
 app.Run();
