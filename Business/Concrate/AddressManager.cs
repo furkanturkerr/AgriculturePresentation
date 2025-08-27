@@ -7,6 +7,11 @@ namespace Business.Concrate;
 public class AddressManager : IAddressService
 {
     private readonly IAdressDal _adressDal;
+    public AddressManager(IAdressDal adressDal)
+    {
+        _adressDal = adressDal;
+    }
+
     public void Insert(Adress t)
     {
         _adressDal.Insert(t);       

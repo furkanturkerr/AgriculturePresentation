@@ -15,7 +15,8 @@ builder.Services.AddScoped<IAnnouncementsService, AnnouncementsManager>();
 builder.Services.AddScoped<IAnnouncementsDal, EfAnnouncementDal>();
 builder.Services.AddScoped<IImagesService, ImageManager>();
 builder.Services.AddScoped<IImageDal, EfImageDal>();
-
+builder.Services.AddScoped<IAddressService, AddressManager>();
+builder.Services.AddScoped<IAdressDal, EfAdressDal>();
 builder.Services.AddScoped<ITeamService, TeamManager>();
 builder.Services.AddScoped<ITeamDal, EfTeamDal>(); 
 
@@ -41,6 +42,6 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=ImageController1}/{action=Index}/{id?}");
+    pattern: "{controller=Address}/{action=Index}/{id?}");
 
 app.Run();
