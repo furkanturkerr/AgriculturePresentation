@@ -6,6 +6,7 @@ namespace AgriculturePresentation.Controllers;
 
 public class DefaultController : Controller
 {
+    
     ServicesManager servicesManager = new ServicesManager(new EfServiceDal());
     // GET
     public IActionResult Index()
