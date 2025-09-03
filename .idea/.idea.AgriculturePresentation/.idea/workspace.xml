@@ -9,7 +9,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5cb86c00-3a1f-41fc-8c87-c88cff827efe" name="Changes" comment="" />
+    <list default="true" id="5cb86c00-3a1f-41fc-8c87-c88cff827efe" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/AgriculturePresentation/Views/Default/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/AgriculturePresentation/Views/Default/Index.cshtml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,7 +56,7 @@
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="Toolset" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
@@ -199,6 +201,7 @@
       <workItem from="1756245229475" duration="3585000" />
       <workItem from="1756320771237" duration="5904000" />
       <workItem from="1756412140224" duration="2133000" />
+      <workItem from="1756644020158" duration="1892000" />
     </task>
     <task id="LOCAL-00001" summary="Proje">
       <option name="closed" value="true" />
@@ -408,7 +411,15 @@
       <option name="project" value="LOCAL" />
       <updated>1756414234106</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Kullanıcı Sayfası">
+      <option name="closed" value="true" />
+      <created>1756645837105</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1756645837105</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -441,7 +452,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="Migration işlemleri yapıldı." />
     <MESSAGE value="Generic Interface - Generic Repository - Entity Framework" />
     <MESSAGE value="Generic Service - Manager Class oluşturma." />
     <MESSAGE value="Yeni Servis ekleme - Startup Yapılandırması - Service Constructor" />
@@ -466,7 +476,8 @@
     <MESSAGE value="Contact Sayfası" />
     <MESSAGE value="Admin Partial - 1" />
     <MESSAGE value="Admin Partial 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Admin Partial 2" />
+    <MESSAGE value="Kullanıcı Sayfası" />
+    <option name="LAST_COMMIT_MESSAGE" value="Kullanıcı Sayfası" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
