@@ -1,3 +1,4 @@
+using Entity;
 using Entity.Concrate;
 using Microsoft.EntityFrameworkCore;
 
@@ -16,4 +17,5 @@ public class AgricultureContext : DbContext
     public DbSet<Team> Teams { get; set; }
     public DbSet<Service> Service { get; set; }
     public DbSet<Image> Images { get; set; }
+    public DbSet<SocialMedia> SocialMedias { get; set; }
 }

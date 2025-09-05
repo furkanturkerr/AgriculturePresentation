@@ -1,0 +1,11 @@
+@model System.Collections.Generic.List<Entity.SocialMedia>
+
+
+<div class="w3l_header_right">
+    <div class="w3ls-social-icons text-left">
+        @foreach (var Item in Model)
+        {
+            <a class="@Item.Title" href="@Item.Url"><i class="@Item.Icon"></i></a>
+        }
+    </div>
+</div>
