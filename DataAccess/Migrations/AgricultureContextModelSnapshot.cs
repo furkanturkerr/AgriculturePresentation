@@ -22,6 +22,27 @@ namespace DataAccess.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
+            modelBuilder.Entity("Entity.Abaut", b =>
+                {
+                    b.Property<int>("AbautId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("AbautId"));
+
+                    b.Property<string>("AbautHistory")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("AbautUs")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("AbautId");
+
+                    b.ToTable("Abauts");
+                });
+
             modelBuilder.Entity("Entity.Concrate.Adress", b =>
                 {
                     b.Property<int>("AdressId")

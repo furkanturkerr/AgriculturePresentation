@@ -23,6 +23,8 @@ builder.Services.AddScoped<IContactService, ContactManager>();
 builder.Services.AddScoped<IContactDal, EfContactDal>();
 builder.Services.AddScoped<ISocialMediaService, SocialMediaManager>();
 builder.Services.AddScoped<ISocialMediaDal, EfSocialMediaDal>();
+builder.Services.AddScoped<IAbautService, AbautManager>();
+builder.Services.AddScoped<IAbautDal, EfAbautDal>();
 
 builder.Services.AddDbContext<AgricultureContext>();
 
