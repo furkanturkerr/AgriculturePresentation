@@ -7,11 +7,11 @@
         <div class="services-main">
             @foreach (var item in Model)
             {
-            <div class="col-md-3 sevices-w3layouts-grids wow fadeInUp animated" data-wow-delay=".5s">
+            <div class="@item.Class1" data-wow-delay=".5s">
                 <h5>@item.Description</h5>
                 <p>@item.Title</p>
 
-                <div class="sevices-w3layouts-img c1">
+                <div class="@item.Class2">
                     <i class="@item.Image" aria-hidden="true"></i>
                     <p>Lorem ipsum</p>
                 </div>
