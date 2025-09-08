@@ -10,15 +10,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5cb86c00-3a1f-41fc-8c87-c88cff827efe" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/AgriculturePresentation/ViewComponents/_AbautPartial.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AgriculturePresentation/Views/Shared/Components/_AbautPartial/Default.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Business/Abstract/IAbautService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Business/Concrate/AbautManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataAccess/Abstract/IAbautDal.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataAccess/Concrate/EntityFramework/EfAbautDal.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Entity/Abaut.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AgriculturePresentation/ViewComponents/_ServicePartial.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AgriculturePresentation/Views/Shared/Components/_ServicePartial/Default.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AgriculturePresentation/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AgriculturePresentation/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AgriculturePresentation/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AgriculturePresentation/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AgriculturePresentation/Views/Default/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/AgriculturePresentation/Views/Default/Index.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Business/bin/Debug/net8.0/Business.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Business/bin/Debug/net8.0/Business.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Business/bin/Debug/net8.0/Business.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Business/bin/Debug/net8.0/Business.pdb" afterDir="false" />
@@ -29,14 +23,11 @@
       <change beforePath="$PROJECT_DIR$/Business/obj/Debug/net8.0/Business.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Business/obj/Debug/net8.0/Business.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Business/obj/Debug/net8.0/Business.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Business/obj/Debug/net8.0/Business.AssemblyInfoInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Business/obj/Debug/net8.0/Business.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Business/obj/Debug/net8.0/Business.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Business/obj/Debug/net8.0/Business.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Business/obj/Debug/net8.0/Business.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Business/obj/Debug/net8.0/Business.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Business/obj/Debug/net8.0/Business.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Business/obj/Debug/net8.0/Business.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Business/obj/Debug/net8.0/Business.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Business/obj/Debug/net8.0/Business.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/Business/obj/Debug/net8.0/Business.sourcelink.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Business/obj/Debug/net8.0/ref/Business.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Business/obj/Debug/net8.0/ref/Business.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Business/obj/Debug/net8.0/refint/Business.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Business/obj/Debug/net8.0/refint/Business.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataAccess/Contexts/AgricultureContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/Contexts/AgricultureContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataAccess/Migrations/AgricultureContextModelSnapshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/Migrations/AgricultureContextModelSnapshot.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DataAccess/bin/Debug/net8.0/DataAccess.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/bin/Debug/net8.0/DataAccess.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DataAccess/bin/Debug/net8.0/DataAccess.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/bin/Debug/net8.0/DataAccess.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DataAccess/bin/Debug/net8.0/Entity.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/bin/Debug/net8.0/Entity.dll" afterDir="false" />
@@ -44,7 +35,6 @@
       <change beforePath="$PROJECT_DIR$/DataAccess/obj/Debug/net8.0/DataAccess.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/obj/Debug/net8.0/DataAccess.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DataAccess/obj/Debug/net8.0/DataAccess.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/obj/Debug/net8.0/DataAccess.AssemblyInfoInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DataAccess/obj/Debug/net8.0/DataAccess.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/obj/Debug/net8.0/DataAccess.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataAccess/obj/Debug/net8.0/DataAccess.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/obj/Debug/net8.0/DataAccess.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DataAccess/obj/Debug/net8.0/DataAccess.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/obj/Debug/net8.0/DataAccess.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DataAccess/obj/Debug/net8.0/DataAccess.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/obj/Debug/net8.0/DataAccess.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DataAccess/obj/Debug/net8.0/DataAccess.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/obj/Debug/net8.0/DataAccess.sourcelink.json" afterDir="false" />
@@ -54,7 +44,6 @@
       <change beforePath="$PROJECT_DIR$/Entity/bin/Debug/net8.0/Entity.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Entity/bin/Debug/net8.0/Entity.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Entity/obj/Debug/net8.0/Entity.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Entity/obj/Debug/net8.0/Entity.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Entity/obj/Debug/net8.0/Entity.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Entity/obj/Debug/net8.0/Entity.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Entity/obj/Debug/net8.0/Entity.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Entity/obj/Debug/net8.0/Entity.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Entity/obj/Debug/net8.0/Entity.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Entity/obj/Debug/net8.0/Entity.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Entity/obj/Debug/net8.0/Entity.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Entity/obj/Debug/net8.0/Entity.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Entity/obj/Debug/net8.0/Entity.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/Entity/obj/Debug/net8.0/Entity.sourcelink.json" afterDir="false" />
@@ -254,7 +243,8 @@
       <workItem from="1756980188236" duration="623000" />
       <workItem from="1757108416472" duration="1350000" />
       <workItem from="1757197067238" duration="811000" />
-      <workItem from="1757282014398" duration="1374000" />
+      <workItem from="1757282014398" duration="1410000" />
+      <workItem from="1757360186450" duration="949000" />
     </task>
     <task id="LOCAL-00001" summary="Proje">
       <option name="closed" value="true" />
@@ -488,7 +478,15 @@
       <option name="project" value="LOCAL" />
       <updated>1757197541072</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Abaut">
+      <option name="closed" value="true" />
+      <created>1757283418233</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1757283418233</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -521,7 +519,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="Yeni Servis ekleme - Startup Yapılandırması - Service Constructor" />
     <MESSAGE value="Servis silme - düzenleme." />
     <MESSAGE value="Admin Layout" />
     <MESSAGE value="Add Servis Layout" />
@@ -546,7 +543,8 @@
     <MESSAGE value="Kullanıcı Sayfası" />
     <MESSAGE value="Social Media" />
     <MESSAGE value="Navbar" />
-    <option name="LAST_COMMIT_MESSAGE" value="Navbar" />
+    <MESSAGE value="Abaut" />
+    <option name="LAST_COMMIT_MESSAGE" value="Abaut" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
