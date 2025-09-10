@@ -1,18 +1,19 @@
 @model System.Collections.Generic.List<Entity.Concrate.Contact>
 <div class="col-md-9 contact-middle">
     <h2>İletişim Formu</h2>
-    <form method="post">
+    @using (Html.BeginForm("SendMessage", "Default", FormMethod.Post))
+    {
         <div class="form-agileinfo">
             <p>Adınız Soyadınız</p>
-            <input type="text" name="your name" placeholder="Your name" required=""/>
+            <input type="text" name="Name" placeholder="Your name" required=""/>
             <p>Mail Adresiniz</p>
-            <input type="email" name="your email" placeholder="Your email" required=""/>
+            <input type="email" name="Email" placeholder="Your email" required=""/>
         </div>
         <div class="form-agileits-w3layouts">
             <p>Mesaınız</p>
-            <textarea  name="your message" placeholder="Your message" required="" ></textarea>
-            <input type="submit" value="Gönder">
+            <textarea  name="Message" placeholder="Your message" required="" ></textarea>
+            <button>Gönder</button>
         </div>
         <div class="clearfix"></div>
-    </form>
+    }
 </div>

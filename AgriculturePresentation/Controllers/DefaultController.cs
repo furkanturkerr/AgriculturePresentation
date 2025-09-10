@@ -1,17 +1,35 @@
+using Business.Abstract;
 using Business.Concrate;
 using DataAccess.Concrate.EntityFramework;
+using Entity.Concrate;
 using Microsoft.AspNetCore.Mvc;
 
 namespace AgriculturePresentation.Controllers;
 
 public class DefaultController : Controller
 {
+    private readonly IContactService _contactService;
+    public DefaultController(IContactService contactService)
+    {
+        _contactService = contactService;
+    }
     
-    ServicesManager servicesManager = new ServicesManager(new EfServiceDal());
     // GET
     public IActionResult Index()
     {
-        var values  = servicesManager.GetAll();
-        return View(values);
+        return View();
+    }
+    [HttpGet]
+    public PartialViewResult SendMessage()
+    {
+        return PartialView();
+    }
+    
+    [HttpPost]
+    public IActionResult SendMessage(Contact contact)
+    {
+        contact.Date=DateTime.Parse(DateTime.Now.ToShortDateString());
+        _contactService.Insert(contact);
+        return RedirectToAction("Index", "Default");
     }
 }

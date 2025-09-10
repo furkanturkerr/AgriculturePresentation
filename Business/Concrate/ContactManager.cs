@@ -11,15 +11,14 @@ public class ContactManager : IContactService
     {
         _contactDal = contactDal;
     }   
-    private IContactService _contactServiceImplementation;
     public void Insert(Contact t)
     {
-        _contactServiceImplementation.Insert(t);
+        _contactDal.Insert(t);
     }
 
     public void Update(Contact t)
     {
-        _contactServiceImplementation.Update(t);
+        _contactDal.Update(t);
     }
 
     public void Delete(Contact t)
