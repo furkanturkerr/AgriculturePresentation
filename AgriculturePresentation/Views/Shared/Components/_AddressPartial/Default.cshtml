@@ -1,0 +1,16 @@
+@model System.Collections.Generic.List<Entity.Concrate.Adress>
+
+<h3 class="tittle">Bize Ulaşın</h3>
+<p class="heading-btm-w3ls">Suspendisse fringilla pellentesque risus sit amet bibendum.</p>
+<div class="col-md-3 contact-left">
+    @foreach (var item in Model)
+    {
+        <h4>Adres</h4>
+        <p>@item.Description1</p>
+        <p>@item.Description2</p>
+        <p>@item.Description3</p>
+        <h4>Telefon Numarası</h4>
+        <p>@item.Description4</p>
+    }
+
+</div>
