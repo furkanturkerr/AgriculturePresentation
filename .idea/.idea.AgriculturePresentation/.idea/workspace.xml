@@ -10,7 +10,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5cb86c00-3a1f-41fc-8c87-c88cff827efe" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/AgriculturePresentation/Controllers/LoginController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AgriculturePresentation/Views/Login/Index.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AgriculturePresentation/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AgriculturePresentation/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AgriculturePresentation/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AgriculturePresentation/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Business/bin/Debug/net8.0/Business.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Business/bin/Debug/net8.0/Business.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Business/bin/Debug/net8.0/Business.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Business/bin/Debug/net8.0/Business.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Business/bin/Debug/net8.0/DataAccess.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Business/bin/Debug/net8.0/DataAccess.dll" afterDir="false" />
@@ -88,11 +91,9 @@
     <setting file="mock:///AIAssistantSnippet.." root0="FORCE_HIGHLIGHTING" root1="SKIP_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
     <setting file="mock:///AIAssistantSnippet.." root0="FORCE_HIGHLIGHTING" root1="SKIP_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
     <setting file="mock:///AIAssistantSnippet.." root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///AIAssistantSnippet.." root0="FORCE_HIGHLIGHTING" root1="SKIP_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///AIAssistantSnippet.." root0="FORCE_HIGHLIGHTING" root1="SKIP_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
     <setting file="mock:///AIAssistantSnippet.." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet.." root0="FORCE_HIGHLIGHTING" root1="SKIP_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet.." root0="FORCE_HIGHLIGHTING" root1="SKIP_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet.." root0="FORCE_HIGHLIGHTING" root1="SKIP_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet.." root0="FORCE_HIGHLIGHTING" root1="SKIP_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/AgriculturePresentation/obj/Debug/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
@@ -251,6 +252,8 @@
       <workItem from="1757537969225" duration="2976000" />
       <workItem from="1757578462479" duration="492000" />
       <workItem from="1757624504153" duration="601000" />
+      <workItem from="1757855354329" duration="1721000" />
+      <workItem from="1757857665496" duration="606000" />
     </task>
     <task id="LOCAL-00001" summary="Proje">
       <option name="closed" value="true" />
@@ -556,7 +559,23 @@
       <option name="project" value="LOCAL" />
       <updated>1757540912931</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="Harita Bilgisi">
+      <option name="closed" value="true" />
+      <created>1757856434131</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1757856434131</updated>
+    </task>
+    <task id="LOCAL-00040" summary="Footer Alanı">
+      <option name="closed" value="true" />
+      <created>1757857068851</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1757857068851</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -589,8 +608,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="Team Düzenleme ve silme işlemleri yapıldı" />
-    <MESSAGE value="Duyurular - Images Listesi" />
     <MESSAGE value="Announcement List ve Add" />
     <MESSAGE value="Duyuru Silme ve Düzenleme" />
     <MESSAGE value="Duyuru durum değiştirme." />
@@ -614,7 +631,9 @@
     <MESSAGE value="Adres" />
     <MESSAGE value="İletişim Formu" />
     <MESSAGE value="İletişim Formu Mesaj Gönderme" />
-    <option name="LAST_COMMIT_MESSAGE" value="İletişim Formu Mesaj Gönderme" />
+    <MESSAGE value="Harita Bilgisi" />
+    <MESSAGE value="Footer Alanı" />
+    <option name="LAST_COMMIT_MESSAGE" value="Footer Alanı" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
