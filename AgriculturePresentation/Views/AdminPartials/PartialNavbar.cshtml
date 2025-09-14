@@ -126,10 +126,12 @@
                 <i class="mdi mdi-settings text-primary"></i>
                 Ayarlar
               </a>
-              <a class="dropdown-item">
-                <i class="mdi mdi-logout text-primary"></i>
-                Çıkış Yap
-              </a>
+              <form asp-controller="Login" asp-action="Logout" method="post" style="display: inline;">
+                <button type="submit" class="dropdown-item" style="background: none; border: none; width: 100%; text-align: left;">
+                  <i class="mdi mdi-logout text-primary"></i>
+                  Çıkış Yap
+                </button>
+              </form>
             </div>
           </li>
         </ul>

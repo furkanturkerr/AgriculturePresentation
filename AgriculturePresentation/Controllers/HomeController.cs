@@ -1,8 +1,10 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using AgriculturePresentation.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace AgriculturePresentation.Controllers;
+[AllowAnonymous] 
 
 public class HomeController : Controller
 {

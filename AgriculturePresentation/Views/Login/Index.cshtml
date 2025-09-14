@@ -1,26 +1,24 @@
-@model dynamic
+@model LoginViewModel
 
 @{
+    ViewData["Title"] = "Giriş Yap";
     Layout = null;
 }
 
 <!doctype html>
 <html lang="en">
 <head>
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-
     <meta charset="UTF-8">
     <title>Admin Giriş</title>
 
-    <!--styles-->
-    <link rel="stylesheet" href="wp-admin-html-template-main/assets/styles/main.css">
+    <!--styles - YOLLAR DÜZELTİLDİ-->
+    <link rel="stylesheet" href="~/wp-admin-html-template-main/assets/styles/main.css">
 
-    <!--scripts-->
-    <script src="wp-admin-html-template-main/assets/scripts/jquery-1.12.2.min.js"></script>
-    <script src="wp-admin-html-template-main/https://cdn.ckeditor.com/4.5.7/basic/ckeditor.js"></script>
-    <script src="wp-admin-html-template-main/assets/scripts/admin.js"></script>
-
+    <!--scripts - YOLLAR DÜZELTİLDİ-->
+    <script src="~/wp-admin-html-template-main/assets/scripts/jquery-1.12.2.min.js"></script>
+    <script src="https://cdn.ckeditor.com/4.5.7/basic/ckeditor.js"></script>
+    <script src="~/wp-admin-html-template-main/assets/scripts/admin.js"></script>
 </head>
 <body>
 
@@ -30,27 +28,32 @@
     <!--login logo-->
     <div class="login-logo">
         <a href="#">
-            <img src="wp-admin-html-template-main/assets/images/logo.png" alt="">
+            <img src="~/wp-admin-html-template-main/assets/images/logo.png" alt="Logo">
         </a>
     </div>
         
-    <form action="">
-        <ul>
-            <li>
-                <label for="username">Kullanıcı Adı</label>
-                <input type="text" id="username">
-            </li>
-            <li>
-                <label for="password">Şifre</label>
-                <input type="password" id="password">
-            </li>
-            <li>
-                <button type="submit" class="btn btn-primary">Giriş Yap</button>
-                <label for="remember" class="checkbox">
-                    <input type="checkbox" id="remember"> Beni Hatırla
-                </label>
-            </li>
-        </ul>
+    <form asp-action="Index" method="post">
+        <div asp-validation-summary="All" class="text-danger mb-3"></div>
+    
+        <!-- Kullanıcı Adı alanı -->
+        <div class="form-group">
+            <input asp-for="Username" class="form-control" placeholder="Kullanıcı Adı" />
+            <span asp-validation-for="Username" class="text-danger"></span>
+        </div>
+
+        <!-- Şifre alanı -->
+        <div class="form-group">
+            <input asp-for="Password" class="form-control" placeholder="Şifre" type="password" />
+            <span asp-validation-for="Password" class="text-danger"></span>
+        </div>
+
+        <!-- Beni Hatırla -->
+        <div class="form-check">
+            <input asp-for="RememberMe" class="form-check-input" />
+            <label asp-for="RememberMe" class="form-check-label">Beni Hatırla</label>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Giriş Yap</button>
     </form>
 
 </div>
