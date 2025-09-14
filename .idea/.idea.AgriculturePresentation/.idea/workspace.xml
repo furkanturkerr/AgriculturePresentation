@@ -10,86 +10,45 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5cb86c00-3a1f-41fc-8c87-c88cff827efe" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/AgriculturePresentation/Models/DefaultUserSettings.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AgriculturePresentation/Models/LoginViewModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Entity/Concrate/Admin.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Entity/Concrate/AppUser.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AgriculturePresentation/Controllers/DashboardController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AgriculturePresentation/Views/Dashboard/Index.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AgriculturePresentation/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AgriculturePresentation/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AgriculturePresentation/Controllers/HomeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AgriculturePresentation/Controllers/HomeController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AgriculturePresentation/Controllers/LoginController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AgriculturePresentation/Controllers/LoginController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AgriculturePresentation/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AgriculturePresentation/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AgriculturePresentation/Views/AdminPartials/PartialNavbar.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/AgriculturePresentation/Views/AdminPartials/PartialNavbar.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AgriculturePresentation/Views/Login/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/AgriculturePresentation/Views/Login/Index.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AgriculturePresentation/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/AgriculturePresentation/appsettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Business/bin/Debug/net8.0/Business.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/Business/bin/Debug/net8.0/Business.deps.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Business/bin/Debug/net8.0/Business.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Business/bin/Debug/net8.0/Business.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Business/bin/Debug/net8.0/Business.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Business/bin/Debug/net8.0/Business.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Business/bin/Debug/net8.0/DataAccess.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Business/bin/Debug/net8.0/DataAccess.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Business/bin/Debug/net8.0/DataAccess.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Business/bin/Debug/net8.0/DataAccess.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Business/bin/Debug/net8.0/Entity.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Business/bin/Debug/net8.0/Entity.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Business/bin/Debug/net8.0/Entity.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Business/bin/Debug/net8.0/Entity.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Business/obj/Business.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Business/obj/Business.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Business/obj/Business.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/Business/obj/Business.csproj.nuget.g.targets" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Business/obj/Debug/net8.0/Business.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Business/obj/Debug/net8.0/Business.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Business/obj/Debug/net8.0/Business.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Business/obj/Debug/net8.0/Business.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Business/obj/Debug/net8.0/Business.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Business/obj/Debug/net8.0/Business.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Business/obj/Debug/net8.0/Business.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Business/obj/Debug/net8.0/Business.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Business/obj/Debug/net8.0/Business.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Business/obj/Debug/net8.0/Business.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Business/obj/Debug/net8.0/Business.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Business/obj/Debug/net8.0/Business.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Business/obj/Debug/net8.0/Business.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Business/obj/Debug/net8.0/Business.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Business/obj/Debug/net8.0/Business.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/Business/obj/Debug/net8.0/Business.sourcelink.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Business/obj/Debug/net8.0/ref/Business.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Business/obj/Debug/net8.0/ref/Business.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Business/obj/Debug/net8.0/refint/Business.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Business/obj/Debug/net8.0/refint/Business.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Business/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Business/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Business/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Business/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Business/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/Business/obj/rider.project.model.nuget.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Business/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Business/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataAccess/Contexts/AgricultureContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/Contexts/AgricultureContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataAccess/DataAccess.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/DataAccess.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataAccess/Migrations/AgricultureContextModelSnapshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/Migrations/AgricultureContextModelSnapshot.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataAccess/bin/Debug/net8.0/DataAccess.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/bin/Debug/net8.0/DataAccess.deps.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DataAccess/bin/Debug/net8.0/DataAccess.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/bin/Debug/net8.0/DataAccess.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DataAccess/bin/Debug/net8.0/DataAccess.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/bin/Debug/net8.0/DataAccess.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DataAccess/bin/Debug/net8.0/Entity.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/bin/Debug/net8.0/Entity.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DataAccess/bin/Debug/net8.0/Entity.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/bin/Debug/net8.0/Entity.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataAccess/obj/DataAccess.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/obj/DataAccess.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataAccess/obj/DataAccess.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/obj/DataAccess.csproj.nuget.g.targets" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DataAccess/obj/Debug/net8.0/DataAccess.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/obj/Debug/net8.0/DataAccess.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DataAccess/obj/Debug/net8.0/DataAccess.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/obj/Debug/net8.0/DataAccess.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataAccess/obj/Debug/net8.0/DataAccess.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/obj/Debug/net8.0/DataAccess.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DataAccess/obj/Debug/net8.0/DataAccess.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/obj/Debug/net8.0/DataAccess.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataAccess/obj/Debug/net8.0/DataAccess.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/obj/Debug/net8.0/DataAccess.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DataAccess/obj/Debug/net8.0/DataAccess.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/obj/Debug/net8.0/DataAccess.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DataAccess/obj/Debug/net8.0/DataAccess.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/obj/Debug/net8.0/DataAccess.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DataAccess/obj/Debug/net8.0/DataAccess.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/obj/Debug/net8.0/DataAccess.sourcelink.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DataAccess/obj/Debug/net8.0/ref/DataAccess.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/obj/Debug/net8.0/ref/DataAccess.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DataAccess/obj/Debug/net8.0/refint/DataAccess.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/obj/Debug/net8.0/refint/DataAccess.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataAccess/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataAccess/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataAccess/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataAccess/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/obj/rider.project.model.nuget.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataAccess/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Entity/Entity.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Entity/Entity.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Entity/bin/Debug/net8.0/Entity.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/Entity/bin/Debug/net8.0/Entity.deps.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Entity/bin/Debug/net8.0/Entity.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Entity/bin/Debug/net8.0/Entity.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Entity/bin/Debug/net8.0/Entity.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Entity/bin/Debug/net8.0/Entity.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Entity/obj/Debug/net8.0/Entity.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Entity/obj/Debug/net8.0/Entity.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Entity/obj/Debug/net8.0/Entity.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Entity/obj/Debug/net8.0/Entity.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Entity/obj/Debug/net8.0/Entity.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Entity/obj/Debug/net8.0/Entity.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Entity/obj/Debug/net8.0/Entity.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Entity/obj/Debug/net8.0/Entity.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Entity/obj/Debug/net8.0/Entity.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Entity/obj/Debug/net8.0/Entity.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Entity/obj/Debug/net8.0/Entity.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Entity/obj/Debug/net8.0/Entity.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Entity/obj/Debug/net8.0/Entity.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Entity/obj/Debug/net8.0/Entity.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Entity/obj/Debug/net8.0/Entity.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/Entity/obj/Debug/net8.0/Entity.sourcelink.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Entity/obj/Debug/net8.0/ref/Entity.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Entity/obj/Debug/net8.0/ref/Entity.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Entity/obj/Debug/net8.0/refint/Entity.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Entity/obj/Debug/net8.0/refint/Entity.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Entity/obj/Entity.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Entity/obj/Entity.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Entity/obj/Entity.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/Entity/obj/Entity.csproj.nuget.g.targets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Entity/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Entity/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Entity/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Entity/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Entity/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Entity/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Entity/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/Entity/obj/rider.project.model.nuget.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Entity/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Entity/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,6 +97,8 @@
     <setting file="mock:///AIAssistantSnippet.." root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///AIAssistantSnippet.." root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///AIAssistantSnippet.." root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///AIAssistantSnippet.." root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///AIAssistantSnippet.." root0="FORCE_HIGHLIGHTING" root1="SKIP_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
     <setting file="mock:///AIAssistantSnippet.." root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///AIAssistantSnippet.." root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///AIAssistantSnippet.." root0="SKIP_HIGHLIGHTING" />
@@ -316,7 +277,8 @@
       <workItem from="1757624504153" duration="601000" />
       <workItem from="1757855354329" duration="1721000" />
       <workItem from="1757857665496" duration="1907000" />
-      <workItem from="1757859627664" duration="4432000" />
+      <workItem from="1757859627664" duration="5922000" />
+      <workItem from="1757880925612" duration="377000" />
     </task>
     <task id="LOCAL-00001" summary="Proje">
       <option name="closed" value="true" />
@@ -646,7 +608,15 @@
       <option name="project" value="LOCAL" />
       <updated>1757858457005</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="Identity ile Login İşlemlerinin Yapılması">
+      <option name="closed" value="true" />
+      <created>1757872599282</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1757872599282</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -679,7 +649,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="Duyuru Silme ve Düzenleme" />
     <MESSAGE value="Duyuru durum değiştirme." />
     <MESSAGE value="Images Düzenlemeleri - Ekleme Silme Güncelleme - Validation" />
     <MESSAGE value="Image Veri Setleri" />
@@ -704,7 +673,8 @@
     <MESSAGE value="Harita Bilgisi" />
     <MESSAGE value="Footer Alanı" />
     <MESSAGE value="Admin Login Teması" />
-    <option name="LAST_COMMIT_MESSAGE" value="Admin Login Teması" />
+    <MESSAGE value="Identity ile Login İşlemlerinin Yapılması" />
+    <option name="LAST_COMMIT_MESSAGE" value="Identity ile Login İşlemlerinin Yapılması" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -22,7 +22,7 @@ public class LoginController : Controller
     {
         if (User.Identity.IsAuthenticated)
         {
-            return RedirectToAction("Index", "Address");
+            return RedirectToAction("Index", "Dashboard");
         }
         
         return View();
@@ -41,7 +41,7 @@ public class LoginController : Controller
 
             if (result.Succeeded)
             {
-                return RedirectToAction("Index", "Address");
+                return RedirectToAction("Index", "Dashboard");
             }
             
             if (result.IsLockedOut)
