@@ -32,4 +32,9 @@ public class DefaultController : Controller
         _contactService.Insert(contact);
         return RedirectToAction("Index", "Default");
     }
+
+    public PartialViewResult ScriptPartial()
+    {
+        return PartialView();   
+    }
 }
